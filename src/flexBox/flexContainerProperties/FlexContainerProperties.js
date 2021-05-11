@@ -8,6 +8,7 @@ import {
 import './FlexContainerProperties.css';
 
 import FlexDirection from './flexDirection/FlexDirection';
+import FlexWrap from './flexWrap/FlexWrap';
 
 function FlexContainerProperties() {
 
@@ -22,10 +23,10 @@ function FlexContainerProperties() {
                         <Link to={`${url}/flexDirection`}> flex-direction</Link>
                     </li>
                     <li>
-                        <Link to={`${url}/flexWraps`}> flex-wrap</Link>
+                        <Link to={`${url}/flexWrap`}> flex-wrap</Link>
                     </li>
                     <li>
-                        <Link to={`${url}/flexFlows`}> flex-flow</Link>
+                        <Link to={`${url}/flexFlow`}> flex-flow</Link>
                     </li>
                     <li>
                         <Link to={`${url}/justifyContent`}> justify-content</Link>
@@ -44,6 +45,9 @@ function FlexContainerProperties() {
                 </Route>
                 <Route path={`${path}/flexDirection`}>
                     <FlexDirection />
+                </Route>
+                <Route path={`${path}/flexWrap`}>
+                    <FlexWrap />
                 </Route>
             </Switch>
         </div>
