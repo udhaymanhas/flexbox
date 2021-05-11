@@ -6,13 +6,10 @@ import {
   Switch,
   Route,
   Link,
-  useParams,
-  useRouteMatch
 } from "react-router-dom";
 
-import LayoutFlexDirection from './layouts/layoutFlexDirection/LayoutFlexDirection';
-import FlexContainerProperties from './layouts/flexContainerProperties/FlexContainerProperties';
-import FlexChildrenProperties from './layouts/flexChildrenProperties/FlexChildrenProperties';
+import FlexContainerProperties from './flexBox/flexContainerProperties/FlexContainerProperties';
+import FlexChildrenProperties from './flexBox/flexChildrenProperties/FlexChildrenProperties';
 
 function App() {
   return (
