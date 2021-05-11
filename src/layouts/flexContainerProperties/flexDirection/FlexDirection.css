@@ -1,0 +1,35 @@
+.layout-container{
+    margin: 30px;
+}
+
+.container-row{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.container-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid black;
+}
+
+.container-column{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.container-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px solid black;
+}
+
+.flex-item{
+    border: 1px solid red;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+}
