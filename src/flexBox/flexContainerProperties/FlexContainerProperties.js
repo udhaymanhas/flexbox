@@ -9,6 +9,7 @@ import './FlexContainerProperties.css';
 
 import FlexDirection from './flexDirection/FlexDirection';
 import FlexWrap from './flexWrap/FlexWrap';
+import FlexFlow from './flexFlow/FlexFlow';
 
 function FlexContainerProperties() {
 
@@ -48,6 +49,9 @@ function FlexContainerProperties() {
                 </Route>
                 <Route path={`${path}/flexWrap`}>
                     <FlexWrap />
+                </Route>
+                <Route path={`${path}/flexFlow`}>
+                    <FlexFlow />
                 </Route>
             </Switch>
         </div>
