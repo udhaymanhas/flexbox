@@ -11,6 +11,8 @@ import FlexDirection from './flexDirection/FlexDirection';
 import FlexWrap from './flexWrap/FlexWrap';
 import FlexFlow from './flexFlow/FlexFlow';
 import JustifyContent from "./justifyContent/JustifyContent";
+import AlignItem from "./alignItem/AlignItem";
+import AlignContent from "./alignContent/AlignContent";
 
 function FlexContainerProperties() {
 
@@ -34,7 +36,7 @@ function FlexContainerProperties() {
                         <Link to={`${url}/justifyContent`}> justify-content</Link>
                     </li>
                     <li>
-                        <Link to={`${url}/alignItems`}> align-items</Link>
+                        <Link to={`${url}/alignItem`}> align-items</Link>
                     </li>
                     <li>
                         <Link to={`${url}/alignContent`}> align-content</Link>
@@ -56,6 +58,12 @@ function FlexContainerProperties() {
                 </Route>
                 <Route path={`${path}/justifyContent`}>
                     <JustifyContent />
+                </Route>
+                <Route path={`${path}/alignItem`}>
+                    <AlignItem />
+                </Route>
+                <Route path={`${path}/alignContent`}>
+                    <AlignContent />
                 </Route>
             </Switch>
         </div>

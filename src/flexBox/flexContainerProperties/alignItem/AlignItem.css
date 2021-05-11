@@ -1,0 +1,31 @@
+.container-align-item-flex-start{
+    display: flex;
+    border: 1px solid black;
+    height: 500px;
+    align-items: flex-start;
+}
+
+.container-align-item-flex-end{
+    display: flex;
+    border: 1px solid black;
+    height: 500px;
+    align-items: flex-end;
+}
+
+.container-align-item-center{
+    display: flex;
+    border: 1px solid black;
+    height: 500px;
+    align-items: center;
+}
+
+.container-align-item-stretch{
+    display: flex;
+    border: 1px solid black;
+    height: 500px;
+    align-items: stretch;
+}
+
+.height-auto{
+    height: auto;
+}
