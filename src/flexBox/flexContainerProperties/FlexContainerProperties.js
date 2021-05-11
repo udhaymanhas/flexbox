@@ -10,6 +10,7 @@ import './FlexContainerProperties.css';
 import FlexDirection from './flexDirection/FlexDirection';
 import FlexWrap from './flexWrap/FlexWrap';
 import FlexFlow from './flexFlow/FlexFlow';
+import JustifyContent from "./justifyContent/JustifyContent";
 
 function FlexContainerProperties() {
 
@@ -52,6 +53,9 @@ function FlexContainerProperties() {
                 </Route>
                 <Route path={`${path}/flexFlow`}>
                     <FlexFlow />
+                </Route>
+                <Route path={`${path}/justifyContent`}>
+                    <JustifyContent />
                 </Route>
             </Switch>
         </div>
